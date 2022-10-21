@@ -48,6 +48,6 @@
     
 17. The result will be [2,4,6] <br> Calling modifyArray([1,2,3], doSomething) will pass array [1,2,3] to array and the callback function doSomething to callback. In the first for loop iteration, i = 0, callback(array[0]) = doSomething(1) = 1 * 2 = 2 is pushed into newArr. In the second for loop iteration, i = 1, callback(array[1]) = doSomething(2) = 2 * 2 = 4 is pushed into newArr. In the third for loop iteration, i = 2, callback(array[2]) = doSomething(3) = 3 * 2 = 6 is pushed into newArr. Then, since the length of array is 3, the loop is exited and newArr = [2,4,6] is returned.
     
-18. -
+18. See part2-question18.js
     
 19. 1 <br> 4 <br> 3 <br> 2 <br>
